@@ -18,13 +18,13 @@ By connecting the ESP32 to the JTAG pins (TDI, TDO, TMS, TCK) of the target
 FPGA, you can access the JTAG port of the FPGA from a Xilinx tool (Vivado,
 etc.) via WiFi.
 
-![M5Atom](picture.jpg)
+![M5Atom](./xvc_esp32_repo/picture.jpg)
 
 In this example photo, the M5Stack ESP32 module [M5Atom Lite](https://docs.m5stack.com/#/en/core/atom_lite) is connected to a Zynq XC7Z010 FPGA (on EBAZ4205 'Development' Board).
 
 In this state, if you add and connect as a Virtual Cable from Vivado Hardware Manager with `Add Virtual Cable`, you can observe the waveform of ILA in the same way as a normal JTAG adapter.
 
-![ILA](vivado_ila.png)
+![ILA](./xvc_esp32_repo/vivado_ila.png)
 
 #### How to use
 
@@ -40,7 +40,7 @@ TDI = D25, TDO = D21, TCK = D19, TMS = D22
 Feel free to experiment with different ESP32 development boards - most should
 just work with any problems.
 
-![Common ESP32 Dev Board](./ESP-32-Dev-Board.jpg)
+![Common ESP32 Dev Board](./xvc_esp32_repo/ESP-32-Dev-Board.jpg)
 
 | ESP32 Dev Board | JTAG |
 |-----------------|------|
