@@ -85,6 +85,18 @@ requirement, I recommend using `xc3sprog` with an FT2232H board.
 - https://github.com/kholia/Colorlight-5A-75B
 - https://github.com/fusesoc/blinky#ebaz4205-development-board
 
+## FPGA
+
+### Ref
+
+- https://mp.weixin.qq.com/s/xloHTgopF2JVnIqO2yO_KA
+- https://docs.xilinx.com/v/u/en-US/xapp1251-xvc-zynq-petalinux
+
+### Github_Official
+
+- https://github.com/Xilinx/XilinxVirtualCable/
+
+
 ## License
 
 CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
